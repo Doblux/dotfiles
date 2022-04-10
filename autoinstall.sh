@@ -49,7 +49,7 @@ git clone https://github.com/Doblux/dotfiles
 rm -rf dotfiles/config/nvim
 cp -r dotfiles/config $USER_CONFIG_DIR
 mkdir $USER_CONFIG_DIR/X11
-mv $USER_CONFIG_DIR/.xinitrc-bspwm $USER_CONFIG_DIR/X11/.xinitrc-bspwm
+mv dotfiles/config/xinitrc-bspwm $USER_CONFIG_DIR/X11/.xinitrc-bspwm
 
 # Asignamos permisos de ejecucion al bspwmrc para que xorg de pantalla
 chmod +x $USER_CONFIG_DIR/bspwm/bspwmrc
