@@ -55,5 +55,5 @@ colors:
     program: /usr/bin/zsh
 
 
-mouse:
-  hide_when_typing: true
+  mouse:
+    hide_when_typing: true
