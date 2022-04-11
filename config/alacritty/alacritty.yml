@@ -43,3 +43,17 @@ colors:
     magenta: '0x6e4962'
     cyan: '0x5c8482'
     white: '0x828282'
+
+  cursor:
+    style:
+      shape: Beam
+      blinking: On
+      blink_interval: 750
+      thickness: 0.25
+
+  shell:
+    program: /usr/bin/zsh
+
+
+mouse:
+  hide_when_typing: true
